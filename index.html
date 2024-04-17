@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>초성퀴즈</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/5.png">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="https://hangeulkwaja.com/">
+            <img src="./assets/1.png" alt="hangeulkwaja-logo">
+        </a>
+        <nav>
+            <h1 class="title">초성퀴즈</h1>
+        </nav>
+    </header>
+
+    <div id="quiz-container" class="quiz-container">
+        <button class="new-quiz-btn" onclick="getNewQuiz()">새 퀴즈</button>
+
+        <p id="hint" class="hint"></p>
+        <img id=hint-image class="hint-image" src="" alt="Hint Image">
+        <h2 id=quiz class="quiz"></h2>
+        <div class="answer-box">
+            <input class="user-answer" type="text" id="answer" placeholder="정답을 입력하세요">
+            <button class="check-answer-btn" onclick="checkAnswer()">정답 확인</button>
+        </div>
+        <div class="result-box">
+            <p id="result" class="result"></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+<footer>
+    <p>This is test 초성퀴즈 website for 한글과자</p>
+    <p>created by ILIANA CHAE</p>
+</footer>
+</html>

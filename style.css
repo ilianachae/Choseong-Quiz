@@ -1,0 +1,124 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'NanumSquare', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+footer {
+    font-family: 'NanumSquare', sans-serif;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF4DD;
+}
+
+header {
+    font-family: 'MBC1961GulimM', sans-serif;
+    background-color: #FFF4DD;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    justify-content: flex-start;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    flex: 0;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+button.new-quiz-btn {
+    font-family: 'MBC1961GulimM', sans-serif;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #FCD377;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFE8B4;
+}
+
+.quiz-container {
+    background-color: #ffffff;
+    color: #363024;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hint {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hint-image {
+    max-width: auto;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.quiz {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.answer-box {
+    margin-top: 10px;
+}
+
+.user-answer {
+    font-family: 'NanumSquare', sans-serif;
+
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.check-answer-btn {
+    font-family: 'MBC1961GulimM', sans-serif;
+    padding: 10px 20px;
+    background-color: #8C52FF;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.check-answer-btn:hover {
+    background-color: #988DE6;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+}
